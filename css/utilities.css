@@ -1,0 +1,151 @@
+/* Text */
+/* -------------------------------- */
+.text_blue {
+   color: var(--dark-blue);
+   font-weight: bold;
+}
+
+.text_dark_blue {
+   color: var(--very-dark-blue);
+}
+
+.text_red {
+   color: var(--bright-red);
+}
+
+.text_grey {
+   color: var(--dark-blue);
+   opacity: 40%;
+}
+
+.text_white {
+   color: var(--very-light-grey);
+}
+
+.text_light {
+   color: var(--very-pale-red);
+}
+
+
+
+
+
+
+/* Flex */
+/* -------------------------------- */
+.flex {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+
+
+
+/* Grids */
+/* -------------------------------- */
+.grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.grid_3 {
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.grid_4 {
+   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid_5 {
+   grid-template-columns: repeat(5, 1fr);
+}
+
+
+
+
+
+/* Buttons */
+/* -------------------------------- */
+.button_red,
+.button_white {
+   border: none;
+   border-radius: 100px;
+   padding: 17px 12px;
+   width: 175px;
+   font-family: 'Be Vietnam', sans-serif;
+   font-weight: 500;
+   letter-spacing: 1.2px;
+}
+
+
+.button_red {
+   background-color: var(--bright-red);   
+   color: var(--very-light-grey);
+   box-shadow: 0 10px 20px rgba(242, 95, 58, 0.5);   
+}
+
+.button_white {
+   background-color: var(--very-light-grey);   
+   color: var(--bright-red); 
+}
+
+
+.button_red:hover {
+   cursor: pointer;
+   opacity: 60%;
+}
+
+.button_white:hover {
+   cursor: pointer;
+   mix-blend-mode: screen;
+}
+
+
+
+
+
+/* Padding */
+.py1 {
+   padding-bottom: 20px;
+}
+
+.py2 {
+   padding-bottom: 30px;
+}
+
+
+/* Paragraph */
+.par {
+   width: 350px;
+}
+
+
+
+
+/* Headings */
+.heading_main {
+   font-size: 50px;
+}
+
+.heading_section {
+   font-size: 40px;
+}
+
+
+
+
+/* Logo Colours */
+.red_icon {
+   fill: var(--bright-red);
+}
+
+/* Error Message */
+.error-message {
+   color: var(--dark-red);
+   font-style: italic;
+   font-size: 11px;
+   padding-left: 10px;
+}
