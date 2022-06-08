@@ -469,12 +469,12 @@ footer {
 }
 
 .testimonial {
-   padding-bottom: 20px;
+   padding-bottom: 0.7rem;
 }
 
 .testimonial h4 {
-   padding-bottom: 20px;
-   padding-top: 5px;
+   padding-bottom: 0.5rem;
+   padding-top: 0.2rem;
 }
 
 .swiper-container {
