@@ -312,7 +312,7 @@ footer .logo_only {
 @media (max-width: 420px) {
 
    .container {
-      max-width: 350px;
+      max-width: 327px;
       text-align: center;
   }
 
@@ -461,7 +461,7 @@ footer {
 /* testimonials */
 
 .testimonials {
-   padding-bottom: 12rem;
+   padding-bottom: 3rem;
 }
 
 .testimonials h3 {
