@@ -461,8 +461,12 @@ footer {
 /* testimonials */
 
 .testimonials {
-   padding-bottom: 3rem;
+   padding-bottom: 6rem;
 }
+    
+.testimonials .text {
+   padding: 3rem;
+ }
 
 .testimonials h3 {
    font-size: 30px;
