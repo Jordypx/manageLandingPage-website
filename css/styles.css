@@ -312,7 +312,7 @@ footer .logo_only {
 @media (max-width: 420px) {
 
    .container {
-      max-width: 310px;
+      max-width: 350px;
       text-align: center;
   }
 
